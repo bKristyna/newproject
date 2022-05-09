@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; 
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: teal;
+  padding: 30px;
+}
+.container{
+  position: relative;
+  max-width: 1250px;
+  width: 100%;
+  background: #fff;
+  padding: 50px 40px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  perspective: 2700px;
+}
+
+.container .forms{
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+.container .form-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .login-form,
+.form-content .signup-form{
+  width: calc(100% / 2 - 55px);
+}
+.forms .form-content .title{
+  position: relative;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.forms .signup-form  .title:before{
+  width: 10px;
+}
+.forms .form-content .input-boxes{
+  margin-top: 30px;
+}
+.forms .form-content .input-box{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0;
+  position: relative;
+}
+.form-content .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.forms .form-content .text{
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+.forms .form-content .text a{
+  text-decoration: none;
+}
+.forms .form-content .text a:hover{
+  text-decoration: underline;
+}
+.forms .form-content .button{
+  color: #fff;
+  margin-top: 40px;
+}
+.forms .form-content .button input{
+  color: #fff;
+  background: teal;
+  border-radius: 18px;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.forms .form-content .button input:hover{
+  background: teal;
+}
+
+.forms .form-content label:hover{
+  text-decoration: underline;
+}
+.forms .form-content .login-text,
+.forms .form-content .sign-up-text{
+  text-align: center;
+  margin-top: 25px;
+}
+
+  .oldName {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    color: lightgrey;
+  }
+
+  a{
+      position: fixed;
+      color: black;
+      bottom: 0px;
+      border: #fff;
+      background-color: #fff;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      border: 1px solid #f5f5f5;
+      border-radius: 0px;
+      -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+      box-shadow:  0px 0px 10px 0px #f5f5f5;
+      text-align: center;
+
+  }
+
+  h2 {
+      color: black; 
+      top:0px;
+      position: fixed;
+      background-color: #fff;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+      border: 1px solid #f5f5f5;
+      border-radius: 0px;
+      -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+      box-shadow:  0px 0px 10px 0px #f5f5f5;
+      text-align: center;
+}
